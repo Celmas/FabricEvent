@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "celmas",
+  "version": "${version}",
+  "name": "example",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Ilnur/example"
+  },
+  "license": "unlicense",
+  "icon": "assets/celmas/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.celmas.celmas.Example"
+    ]
+  },
+  "mixins": [
+    "celmas.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
